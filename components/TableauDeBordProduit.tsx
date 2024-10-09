@@ -276,7 +276,7 @@ export default function TableauDeBordProduit(
                         <h3 className="text-sm font-medium line-clamp-2 mb-1">
                           {product.productName}
                         </h3>
-                        <p className="text-lg font-bold text-red-400">
+                        <p className="text-xs font-bold text-red-400">
                           {product.price}
                         </p>
                         <Link
