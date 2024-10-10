@@ -70,7 +70,7 @@ export default function Component() {
       <CanvasCursor />
       <header
         className={`fixed top-0 left-0 right-0 transition-colors duration-300 ${
-          isScrolled ? "bg-black" : "bg-transparent"
+          isScrolled ? "bg-black/30" : "bg-transparent"
         } flex justify-between items-center p-4 shadow z-50`}
       >
         <div className="flex items-center space-x-2">
