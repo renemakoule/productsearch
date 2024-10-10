@@ -198,7 +198,7 @@ export default function TableauDeBordProduit(
   );
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 mt-20">
       <div className="flex flex-col lg:flex-row gap-6">
         {/* Right column (Video Suggestions) - Now first on small screens */}
         <div className="lg:w-1/3 lg:order-2 max-h-[550px] overflow-y-auto hide-scrollbar">
