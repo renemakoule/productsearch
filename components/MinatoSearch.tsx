@@ -97,7 +97,7 @@ export default function Component() {
             </h1>
           </div>
         )}
-        <div className={`w-full ${showResults ? 'max-w-full' : 'max-w-xl'} space-y-4`}>
+        <div className={`w-full ${showResults ? 'max-w-xl top-24 fixed z-50' : 'max-w-2xl'} space-y-4`}>
           <form onSubmit={handleSearch} className="relative">
             <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white" />
             <input
